@@ -1,0 +1,59 @@
+@import url(reset.css);
+
+
+:root{
+    --primary-color: #DB5317;
+    --secondary-color: #DE9515;
+    --tetriary-color: #DA7616;
+    --quatinary-color: #DB3016;
+    --quintyary-color: #DAAB15;
+    --sextiary-color: #DB9B5E;
+    --black: #1C1C1C;
+    --white: #DBDBDB;
+    --gray: #c7c7c7;
+}
+body{
+    color: var(--black);
+}
+h1{
+    text-align: center;
+    font-family: UnsteadyOversteer;
+    font-size: xx-large;
+    background-color: var(--primary-color);
+    border: var(--black) 2px solid;
+    width: 80%;
+    margin: auto;
+    padding: 4px;
+}
+h2{
+    text-align: center;
+    background-color: var(--secondary-color);
+    font-family: UnsteadyOversteer;
+    border: var(--black) 2px solid;
+    border-top: none;
+    width: 60%;
+    margin:auto;
+    padding: 4px;
+
+}
+
+
+@font-face {
+    font-family: UnsteadyOversteer;
+    src: url("/assets/fonts/UnsteadyOversteer-Regular.woff2");
+}
+
+@font-face {
+    font-family: Comfortaa-light;
+    font-weight: light;
+    src: url("/assets/fonts/Comfortaa-Light.ttf");
+}
+@font-face {
+    font-family: Comfortaa-bold;
+    font-weight: light;
+    src: url("/assets/fonts/Comfortaa-Bold.ttf");
+}
+@font-face {
+    font-family: Comfortaa;
+    src: url("/assets/fonts/Comfortaa-Regular.ttf");
+}
